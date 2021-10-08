@@ -69,13 +69,20 @@
     - Example Authorization: Bearer 'you-token-value'
   Please be advised, correct bearer token is required for all protected URLs that in assignment were meant to be only accessible to the ADMIN users
  Screenshots:
- <img width="1920" alt="Screen Shot 2021-10-08 at 2 36 48 pm (2)" src="https://user-images.githubusercontent.com/5494101/136494218-27297b82-bb88-43ef-b9ac-9303459c67c2.png">
-<img width="1440" alt="Screen Shot 2021-10-08 at 2 37 37 pm" src="https://user-images.githubusercontent.com/5494101/136494274-c0982e7c-819e-4c98-ac70-d1673ed770e2.png">
-<img width="1920" alt="Screen Shot 2021-10-08 at 2 37 37 pm (2)" src="https://user-images.githubusercontent.com/5494101/136494278-300e2518-1b5e-4430-b28c-cba640638307.png">
-<img width="1440" alt="Screen Shot 2021-10-08 at 2 40 44 pm" src="https://user-images.githubusercontent.com/5494101/136494510-ca028216-a8d9-4ad1-9698-eb17b35f29a5.png">
-<img width="1920" alt="Screen Shot 2021-10-08 at 2 40 44 pm (2)" src="https://user-images.githubusercontent.com/5494101/136494513-37bb5a55-f3db-4ea9-8e95-3cf6bbc5e252.png">
 
-
+![Screen Shot 2021-10-08 at 3 01 53 pm](https://user-images.githubusercontent.com/5494101/136496607-18c7dfe7-ef6b-421a-a7b1-191f2b7bd72b.png)
+![Screen Shot 2021-10-08 at 3 01 58 pm](https://user-images.githubusercontent.com/5494101/136496614-87f59ed0-2b5c-41a5-8566-ed62ff4b6192.png)
+![Screen Shot 2021-10-08 at 3 02 01 pm](https://user-images.githubusercontent.com/5494101/136496616-7ba63aec-299f-4cc8-b681-63b4168bf9ce.png)
+![Screen Shot 2021-10-08 at 3 02 06 pm](https://user-images.githubusercontent.com/5494101/136496618-29dfed63-fd87-492a-878d-cf4b236cf680.png)
+![Screen Shot 2021-10-08 at 3 02 09 pm](https://user-images.githubusercontent.com/5494101/136496622-64da5ff9-586c-48fd-ab8a-2b3349bd3862.png)
+![Screen Shot 2021-10-08 at 3 02 13 pm](https://user-images.githubusercontent.com/5494101/136496623-cd72a779-ba05-43d1-9ab7-e97c09f28c69.png)
+![Screen Shot 2021-10-08 at 3 02 17 pm](https://user-images.githubusercontent.com/5494101/136496626-467b6778-2a59-4d81-9100-a481f61af53e.png)
+![Screen Shot 2021-10-08 at 3 02 21 pm](https://user-images.githubusercontent.com/5494101/136496629-f4fa50ab-f83f-4fc0-a407-167503e2c9cb.png)
+![Screen Shot 2021-10-08 at 3 02 44 pm](https://user-images.githubusercontent.com/5494101/136496637-ba30d1b7-d057-41cb-a526-b8309e3e53f7.png)
+![Screen Shot 2021-10-08 at 3 02 50 pm](https://user-images.githubusercontent.com/5494101/136496639-9d0a5ab0-8041-4331-998c-c77da6c32cbf.png)
+![Screen Shot 2021-10-08 at 3 02 54 pm](https://user-images.githubusercontent.com/5494101/136496641-ce04b759-4a25-4c95-a01c-d05fd720096a.png)
+![Screen Shot 2021-10-08 at 3 02 59 pm](https://user-images.githubusercontent.com/5494101/136496645-852b9a36-01bd-4097-a9db-83c8605bf4da.png)
+![Screen Shot 2021-10-08 at 3 01 30 pm](https://user-images.githubusercontent.com/5494101/136496598-1a26b393-5434-4e58-add2-7e5aedfa05ed.png)
 
 
 
