@@ -10,7 +10,7 @@
   - Composer
   - Phpmyadmin
   - MySQL (used mariadb image since I have AMD Macbook)
-  - Laravel `sanctum` for API authorization
+  - Laravel with `sanctum` authorization for API authorization
 
 ### How to setup
  - Install `docker` and `docker-compose`
