@@ -27,4 +27,4 @@
   Please be advised, correct bearer token is required for all protected URLs
  - Link to Postman Collection: https://www.getpostman.com/collections/429699c677d0da3cb093
  - `?XDEBUG_SESSION_START=Xdebug` is added in the end of each request to connect to Xdebug server on the IDE.
-  
+
