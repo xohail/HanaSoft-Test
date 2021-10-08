@@ -59,7 +59,7 @@
  - Run `php artisan config:clear`
  - Run `php artisan cache:clear`
  - Run `php artisan migrate`
- - Run `php artisan key:generate`
+ - Run `php artisan key:generate` 
  - Site should be up on `localhost:8000`
  - Install `Postman` and login
  - Link to Postman Collection: https://www.getpostman.com/collections/429699c677d0da3cb093
