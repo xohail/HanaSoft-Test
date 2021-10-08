@@ -9,14 +9,15 @@
   - Xdebug 3.0.4
   - Composer
   - Phpmyadmin
-  - MySQL
+  - MySQL (used mariadb image since I have AMD Macbook)
+  - Laravel `sanctum` for API authorization
 
 ### How to setup
  - Install `docker` and `docker-compose`
  - Install `git`
  - Clone the repository `Hanasoft-Test` and switch to the repository folder
  - Get current user id with *echo $UID*
- - Replace the user and id in `docker-compose.yml` file with sohail and 501
+ - Replace the __sohail__ and __501__ with your username and id in `docker-compose.yml` file 
  - Run `docker-compose up -d`
  - Site should be up on `localhost:8000`; if not Run `php artisan serve` and use the provide link (and verify)
  - Install `Postman` and login
