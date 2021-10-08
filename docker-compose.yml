@@ -1,0 +1,76 @@
+version: "2"
+
+services:
+  #Laravel App
+    app:
+      build:
+        args:
+          user: sohail
+          uid: 501
+        context: ./
+        dockerfile: Dockerfile
+      image: laravel-app
+      restart: always
+      container_name: laravel
+      working_dir: /var/www/application/
+      environment:
+        XDEBUG_CONFIG: client_host=docker.for.mac.host.internal discover_client_host=true
+        PHP_IDE_CONFIG: serverName=${SERVER_NAME}
+      volumes:
+        - ./application/:/var/www/application
+      networks:
+        - mynetwork
+
+   #Nginx Service
+    nginx:
+      image: nginx:alpine
+      container_name: nginx
+      restart: always
+      ports:
+        - "8000:80"
+      volumes:
+        - ./:/var/www
+        - ./nginx/conf.d:/etc/nginx/conf.d/
+      networks:
+        - mynetwork
+      external_links:
+        - mysql:mysql
+        - phpmyadmin:phpmyadmin
+
+  #Mysql Service
+    mysql:
+      image: mariadb:latest
+      container_name: mysql
+      restart: always
+      environment:
+        MYSQL_DATABASE: ${DB_DATABASE}
+        MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+        MYSQL_PASSWORD: ${DB_PASSWORD}
+        MYSQL_USER: ${DB_USERNAME}
+      networks:
+        - mynetwork
+      volumes:
+        - "./mariadb/:/var/lib/mysql"
+      ports:
+        - "8889:3306"
+
+  # PHPMYADMIN service
+    phpmyadmin:
+      image: phpmyadmin/phpmyadmin:latest
+      container_name: phpmyadmin
+      environment:
+        PMA_HOST: ${DB_HOST}
+        PMA_PORT: ${DB_PORT}
+      external_links:
+        - mysql:mysql
+      volumes:
+        - "./phpmyadmin/sessions:/sessions"
+      ports:
+        - "8081:80"
+      restart: always
+      networks:
+        - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
