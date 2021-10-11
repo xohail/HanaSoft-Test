@@ -68,7 +68,8 @@
  - *Copy the token value and replace it in the header with Authorization key*
     - Example Authorization: Bearer 'you-token-value'
     - Please be advised, correct bearer token is required for all protected URLs that in assignment were meant to be only accessible to the ADMIN users
- Screenshots:
+ 
+ - Screenshots:
 
 ![Screen Shot 2021-10-08 at 3 01 53 pm](https://user-images.githubusercontent.com/5494101/136496607-18c7dfe7-ef6b-421a-a7b1-191f2b7bd72b.png)
 ![Screen Shot 2021-10-08 at 3 01 58 pm](https://user-images.githubusercontent.com/5494101/136496614-87f59ed0-2b5c-41a5-8566-ed62ff4b6192.png)
