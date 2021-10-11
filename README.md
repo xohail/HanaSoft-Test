@@ -67,7 +67,7 @@
  - Create an admin user and login 
  - *Copy the token value and replace it in the header with Authorization key*
     - Example Authorization: Bearer 'you-token-value'
-  Please be advised, correct bearer token is required for all protected URLs that in assignment were meant to be only accessible to the ADMIN users
+    - Please be advised, correct bearer token is required for all protected URLs that in assignment were meant to be only accessible to the ADMIN users
  Screenshots:
 
 ![Screen Shot 2021-10-08 at 3 01 53 pm](https://user-images.githubusercontent.com/5494101/136496607-18c7dfe7-ef6b-421a-a7b1-191f2b7bd72b.png)
