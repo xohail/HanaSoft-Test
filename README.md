@@ -30,7 +30,7 @@
  - Run `cd ..`
  - Get current user id by running `echo $UID`
  - Replace the __sohail__ and __501__ with your username and id in `docker-compose.yml` file
- - Run `cd nginx/conf.d`
+ - Run `mkdir -p nginx/conf.d && cd nginx/conf.d`
  - Run `nano laravel.conf`
  - Copy into file and save
     - `server {
